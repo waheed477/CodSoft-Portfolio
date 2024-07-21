@@ -1,0 +1,134 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Profile Page</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+  <header class="header-container">  
+    <nav>  
+        <button onclick="scrollToSection('about-container')">About</button>  
+        <button onclick="scrollToSection('skills-container')">Skills</button>  
+        <button onclick="scrollToSection('projects-container')">Projects</button>  
+        <button onclick="scrollToSection('footer-container')">Contact</button>  
+    </nav>  
+</header>  
+<div id="about-container" class="about-container">
+<div class="text-section">  
+            <h1>Hi, I'm Waheed Aslam</h1>  
+            <p>A passionate web developer. Having experience in many skills relating web development.
+              looking forward to conquer the world of tech and development.
+            </p>  
+            <button class="contact-button">Contact Me</button>  
+        </div>  
+        <div class="image-section">  
+            <img src="pics\IMG_20221211_163355-removebg-pre.png" alt="Profile Image" class="profile-image">  
+        </div>  
+    </div>
+  
+    <div id="about-container" class="about-container">
+    <div class="about-image-section">  
+        <img src="pics\about img.jpg" alt="About Me Image" class="about-image">  
+    </div>  
+    <div class="about-text-section">  
+        <h2>About Me</h2>  
+        <p>I am passionate individual with a love for technology and design. 
+          I enjoy creating beautiful and functional websites, 
+          exploring new technologies, and sharing knowledge with others.
+           I always go for learning new skills and subjects.</p>  
+    </div>  
+</div>
+  <div class="container">  
+        <div class="text-section">  
+            <h1>Education</h1>  
+            <p>Hi, I am a student of BS Computer Science And Engineering
+              in University Of Agriculture Faisalabad.
+            <div>
+              . HTML
+              . CSS
+              . JAVA SCRIPT
+              . PHP
+              . REACT js
+              . WORDPRESS </div>
+            </p>  
+        </div>  
+        <div class="image-section">  
+            <img src="pics\education.jpg" alt="Profile Image" class="profile-image">  
+        </div>  
+    </div>
+    <div id="skills-container" class="skills-container">
+    <h2>Skills</h2>  
+    <div class="skills-list">  
+        <div class="skill-item">  
+            <img src="pics\programing.png" alt="HTML" class="skill-icon">  
+            <p>HTML</p>  
+        </div>  
+        <div class="skill-item">  
+            <img src="pics\css.jpg" alt="CSS" class="skill-icon">  
+            <p>CSS</p>  
+        </div>  
+        <div class="skill-item">  
+            <img src="pics\java-logo.png" alt="JavaScript" class="skill-icon">  
+            <p>JavaScript</p>  
+        </div>  
+        <div class="skill-item">  
+            <img src="pics\data.png" alt="React" class="skill-icon">  
+            <p>React</p>  
+        </div>  
+        <div class="skill-item">  
+            <img src="pics\web-programming.png" alt="Node.js" class="skill-icon">  
+            <p>Node.js</p>  
+        </div>  
+    </div>  
+</div>
+<div id="projects-container" class="projects-container">
+<h2>My Projects</h2>  
+    <div class="projects-list">  
+        <div class="project-item">  
+            <img src="pics\sven-mieke-A-btl_OPYWA-unsplash.jpg" alt="Project 1" class="project-image">  
+            <p>An Ecommerce Website</p>  
+        </div>  
+        <div class="project-item">  
+            <img src="pics\sven-mieke-A-btl_OPYWA-unsplash.jpg" alt="Project 2" class="project-image">  
+            <p>A Restaurant Website</p>  
+        </div>  
+        <div class="project-item">  
+            <img src="pics\sven-mieke-A-btl_OPYWA-unsplash.jpg" alt="Project 3" class="project-image">  
+            <p>business Website</p>  
+        </div>  
+        <div class="project-item">  
+            <img src="pics\sven-mieke-A-btl_OPYWA-unsplash.jpg" alt="Project 4" class="project-image">  
+            <p>Wordpress design</p>  
+        </div>  
+    </div>  
+</div>
+<footer id="footer-container" class="footer-container">
+<h2>You Can Contact Me</h2>  
+    <div class="social-icons">  
+        <a href="https://www.facebook.com" target="_blank">  
+            <img src="pics\facebook-color-icon-2048x2048-bfly1vxr.png" alt="Facebook" class="social-icon">  
+        </a>  
+        <a href="https://www.whatsapp.com" target="_blank">  
+            <img src="pics\WhatsApp_icon.png" alt="Whatsapp" class="social-icon">  
+        </a>  
+        
+        <a href="https://www.instagram.com" target="_blank">  
+            <img src="pics\instagrammm.jpg" alt="GitHub" class="social-icon">  
+        </a>  
+    </div>  
+    <p>&copy; 2023 [Waheed Aslam]. All rights reserved.</p>  
+</footer>
+<script>  
+  function scrollToSection(sectionId) {  
+      const section = document.getElementById(sectionId);  
+      if (section) {  
+          section.scrollIntoView({  
+              behavior: 'smooth'  
+          });  
+      }  
+  }  
+</script>
+</body>  
+</html>
